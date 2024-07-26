@@ -34,12 +34,12 @@ export default function MessageForm() {
         <h1 className="text-2xl">Write a birthday message for Hannah!</h1>
             <form onSubmit={handleSubmit}>
                 <div className="flex flex-col gap-3 my-4">
-                    <label className="mt-2" htmlFor="title">Title:</label>
-                    <input className="border p-2 rounded-md" type="text" value={title} name="title" id="title" onChange={(e) => setTitle(e.target.value)} placeholder="Input your book title..." />
+                    <label className="mt-2" htmlFor="title">Message Title:</label>
+                    <input className="border p-2 rounded-md" type="text" value={title} name="title" id="title" onChange={(e) => setTitle(e.target.value)} placeholder="Input your birthday message title..." />
                 </div>
                 <div className="flex flex-col gap-3 my-4">
                     <label htmlFor="message">Message:</label>
-                    <textarea className="border p-2 rounded-md" rows="3" type="text" value={message} name="message" id="message" onChange={(e) => setMessage(e.target.value)} placeholder="Add a message for Hannah..." />
+                    <textarea className="border p-2 rounded-md" rows="3" type="text" value={message} name="message" id="message" onChange={(e) => setMessage(e.target.value)} placeholder="Add a birthday message for Hannah..." />
                 </div>
                 <div className="flex flex-col gap-3 my-4">
                     <label className="mt-2" htmlFor="friendName">Your Name:</label>

@@ -28,8 +28,8 @@ export default function MessageDetail() {
                 <div className="flex flex-col gap-2 text-center border-2 rounded-md shadow-lg p-6">
                     <h1>{message?.title}</h1>
                     <p>Friend's Name: {message?.friendName}</p>
-                    <p>Message: {message?.message}</p>
-                    <img className="w-[200px] h-[200px] self-center m-4 rounded-lg shadow-lg" src={Book} alt="" />
+                    <p>Birthday Message: {message?.message}</p>
+                    <img className="w-[200px] h-[200px] self-center m-4 rounded-lg shadow-lg" src={Message} alt="" />
                 </div>
             </a>
         </div>
