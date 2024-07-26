@@ -29,9 +29,9 @@ export default function MessageList() {
                     messages.map(message =>(
                         <li className="border rounded-lg p-6" key={message.id}>
                             <Link to={`/messages/${message.id}`}>
-                            <h2 className="text-xl">{message.title}</h2>
-                            <h3 className="text-lg">{message.friendName}</h3>
+                            {/* <h2 className="text-xl">{message.title}</h2> */}
                             <p className="font-bold">{message.message}</p>
+                            <h3 className="text-lg">{message.friendName}</h3>
                             </Link>
                         </li>
                     ))
